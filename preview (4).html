@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#101c36">
+<meta name="description" content="Techivers - Latest Government Jobs, Schemes, Results and Official Updates in India.">
+<title>Techivers - Government Updates Portal</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+--navy:#101c36;
+--blue:#2563eb;
+--light:#f1f5f9;
+--text:#172033;
+}
+body{
+font-family:Arial,sans-serif;
+background:var(--light);
+color:var(--text);
+line-height:1.6;
+}
+a{text-decoration:none;color:inherit}
+header{
+background:var(--navy);
+color:white;
+padding:16px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:12px;
+}
+.logo{font-size:25px;font-weight:900}
+.logo span{color:#60a5fa}
+nav{display:flex;gap:18px;flex-wrap:wrap}
+nav a{font-size:14px;color:#dbeafe}
+.hero{
+background:linear-gradient(120deg,#101c36,#1d4ed8);
+color:white;
+text-align:center;
+padding:65px 18px;
+}
+.hero h1{font-size:34px;line-height:1.2}
+.hero p{margin:15px auto;color:#dbeafe;max-width:600px}
+.search{
+max-width:550px;margin:25px auto 0;
+display:flex;background:white;border-radius:9px;
+overflow:hidden;padding:5px;
+}
+.search input{
+flex:1;min-width:0;border:0;outline:0;
+padding:13px;font-size:15px;
+}
+.search button{
+background:var(--blue);color:white;
+border:0;padding:0 20px;border-radius:7px;
+}
+.container{max-width:1150px;margin:auto;padding:30px 16px}
+.heading{font-size:23px;margin-bottom:18px}
+.categories{
+display:grid;grid-template-columns:repeat(4,1fr);
+gap:15px;margin-bottom:35px;
+}
+.category{
+background:white;border-radius:12px;padding:22px 12px;
+text-align:center;box-shadow:0 3px 12px #00000009;
+}
+.category .ico{font-size:30px}
+.category h3{font-size:15px;margin-top:8px}
+.section{margin-bottom:38px}
+.cards{
+display:grid;grid-template-columns:repeat(3,1fr);
+gap:17px;
+}
+.card{
+background:white;border-radius:12px;padding:19px;
+box-shadow:0 3px 12px #0000000a;
+}
+.card h3{font-size:17px;margin-bottom:8px}
+.card p{font-size:13px;color:#64748b;margin-bottom:13px}
+.link{
+display:inline-block;background:var(--blue);
+color:white;padding:9px 14px;
+border-radius:6px;font-size:13px;
+}
+.official{border-left:4px solid #2563eb}
+.tag{
+font-size:11px;background:#dbeafe;color:#1d4ed8;
+padding:4px 8px;border-radius:20px;
+display:inline-block;margin-bottom:9px;
+}
+.subscribe{
+background:var(--navy);color:white;
+border-radius:15px;text-align:center;
+padding:35px 15px;
+}
+.subscribe p{color:#cbd5e1;margin:10px}
+.subscribe form{
+display:flex;max-width:450px;margin:20px auto 0;
+gap:8px;
+}
+.subscribe input{
+flex:1;min-width:0;padding:13px;
+border:0;border-radius:6px;
+}
+.subscribe button{
+background:#2563eb;color:white;
+border:0;padding:12px 17px;border-radius:6px;
+font-weight:bold;
+}
+footer{
+background:#0b1427;color:#cbd5e1;
+text-align:center;padding:25px 15px;
+font-size:13px;
+}
+footer a{color:white}
+.notice{
+background:#fff7ed;padding:12px;
+border-radius:8px;font-size:12px;
+color:#9a3412;margin-top:18px;
+}
+@media(max-width:750px){
+.categories{grid-template-columns:repeat(2,1fr)}
+.cards{grid-template-columns:repeat(2,1fr)}
+.hero h1{font-size:27px}
+nav{gap:12px}
+}
+@media(max-width:480px){
+.cards{grid-template-columns:1fr}
+header{justify-content:center}
+nav{justify-content:center}
+.subscribe form{flex-direction:column}
+.subscribe button{padding:13px}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<a class="logo" href="#">TECH<span>IVERS</span></a>
+<nav>
+<a href="#">Home</a>
+<a href="#updates">Updates</a>
+<a href="#official">Official Links</a>
+<a href="#subscribe">Subscribe</a>
+</nav>
+</header>
+
+<section class="hero">
+<h1>India's Government Update Portal</h1>
+<p>Latest Government Jobs, Schemes, Results,
+Admit Cards and Official Notifications.</p>
+
+<div class="search">
+<input id="searchInput" type="search"
+placeholder="Search jobs, schemes, results...">
+<button onclick="searchSite()">Search</button>
+</div>
+</section>
+
+<main class="container">
+
+<h2 class="heading">Explore Categories</h2>
+
+<div class="categories">
+<a class="category" href="#updates">
+<div class="ico">💼</div>
+<h3>Latest Jobs</h3>
+</a>
+<a class="category" href="#official">
+<div class="ico">🏛️</div>
+<h3>Government Schemes</h3>
+</a>
+<a class="category" href="#official">
+<div class="ico">📋</div>
+<h3>Results & Admit Cards</h3>
+</a>
+<a class="category" href="#official">
+<div class="ico">🔔</div>
+<h3>Official Notifications</h3>
+</a>
+</div>
+
+<section class="section" id="updates">
+<h2 class="heading">🚀 Important Government Updates</h2>
+
+<div class="cards">
+
+<div class="card">
+<span class="tag">Employment</span>
+<h3>Government Job Vacancies</h3>
+<p>Explore official recruitment portals
+of various government departments.</p>
+<a class="link" href="https://www.ncs.gov.in/pages/govt-job-vacancies.aspx" target="_blank" rel="noopener">View Vacancies →</a>
+</div>
+
+<div class="card">
+<span class="tag">Maharashtra</span>
+<h3>Maharashtra Employment</h3>
+<p>Visit the official Mahaswayam
+employment portal.</p>
+<a class="link" href="https://rojgar.mahaswayam.gov.in/" target="_blank" rel="noopener">Visit Portal →</a>
+</div>
+
+<div class="card">
+<span class="tag">Schemes</span>
+<h3>Government Schemes</h3>
+<p>Discover schemes and check
+eligibility through the official portal.</p>
+<a class="link" href="https://www.myscheme.gov.in/" target="_blank" rel="noopener">Explore Schemes →</a>
+</div>
+
+</div>
+</section>
+
+<section class="section" id="official">
+<h2 class="heading">🏛️ Official Government Websites</h2>
+
+<div class="cards">
+
+<div class="card official">
+<h3>🇮🇳 National Portal of India</h3>
+<p>Central and state government services.</p>
+<a class="link" href="https://www.india.gov.in/" target="_blank" rel="noopener">Open Official Website →</a>
+</div>
+
+<div class="card official">
+<h3>🏛️ Maharashtra Government</h3>
+<p>Official Maharashtra state portal.</p>
+<a class="link" href="https://maharashtra.gov.in/" target="_blank" rel="noopener">Open Official Website →</a>
+</div>
+
+<div class="card official">
+<h3>📢 PIB India</h3>
+<p>Official government press releases.</p>
+<a class="link" href="https://www.pib.gov.in/" target="_blank" rel="noopener">Latest News →</a>
+</div>
+
+<div class="card official">
+<h3>📜 Maharashtra GR</h3>
+<p>Government resolutions and decisions.</p>
+<a class="link" href="https://gr.maharashtra.gov.in/" target="_blank" rel="noopener">View GR →</a>
+</div>
+
+<div class="card official">
+<h3>🪪 UIDAI Aadhaar</h3>
+<p>Official Aadhaar services and updates.</p>
+<a class="link" href="https://uidai.gov.in/" target="_blank" rel="noopener">Open UIDAI →</a>
+</div>
+
+<div class="card official">
+<h3>📁 DigiLocker</h3>
+<p>Access digital documents securely.</p>
+<a class="link" href="https://www.digilocker.gov.in/" target="_blank" rel="noopener">Open DigiLocker →</a>
+</div>
+
+<div class="card official">
+<h3>🖥️ Aaple Sarkar</h3>
+<p>Maharashtra citizen online services.</p>
+<a class="link" href="https://aaplesarkar.mahaonline.gov.in/" target="_blank" rel="noopener">Open Portal →</a>
+</div>
+
+<div class="card official">
+<h3>🚆 Indian Railways</h3>
+<p>Official Indian Railways information.</p>
+<a class="link" href="https://indianrailways.gov.in/" target="_blank" rel="noopener">Open Website →</a>
+</div>
+
+<div class="card official">
+<h3>📝 UPSC</h3>
+<p>Official examinations and recruitment.</p>
+<a class="link" href="https://upsc.gov.in/" target="_blank" rel="noopener">Open UPSC →</a>
+</div>
+
+<div class="card official">
+<h3>📚 SSC</h3>
+<p>Staff Selection Commission notifications.</p>
+<a class="link" href="https://ssc.gov.in/" target="_blank" rel="noopener">Open SSC →</a>
+</div>
+
+<div class="card official">
+<h3>🎓 National Scholarship Portal</h3>
+<p>Official scholarship application portal.</p>
+<a class="link" href="https://scholarships.gov.in/" target="_blank" rel="noopener">Apply Here →</a>
+</div>
+
+<div class="card official">
+<h3>📖 MahaDBT</h3>
+<p>Maharashtra scholarships and benefits.</p>
+<a class="link" href="https://mahadbt.maharashtra.gov.in/" target="_blank" rel="noopener">Open MahaDBT →</a>
+</div>
+
+</div>
+</section>
+
+<section class="subscribe" id="subscribe">
+<h2>🔔 Never Miss An Update!</h2>
+<p>Join Techivers and receive government
+updates directly in your inbox.</p>
+
+<form id="subscribeForm"
+action="https://formspree.io/f/YOUR_FORM_ID"
+method="POST">
+
+<input type="email" name="email"
+placeholder="Enter your email address"
+required>
+
+<input type="hidden" name="_subject"
+value="New Techivers Subscriber">
+
+<button type="submit">Subscribe Now →</button>
+</form>
+
+<div class="notice">
+By subscribing, you agree to receive Techivers
+updates by email. You can unsubscribe anytime.
+Your email will only be collected after you submit
+this form and your subscription service is configured.
+</div>
+</section>
+
+</main>
+
+<footer>
+<h2>TECHIVERS</h2>
+<p>Your Gateway to Government Updates</p>
+<p>© 2026 Techivers. All Rights Reserved.</p>
+<p>
+<a href="#official">Official Links</a> |
+<a href="#subscribe">Subscribe</a> |
+<a href="https://www.techivers.in/?m=1">Original Website</a>
+</p>
+<p>Techivers is an independent information portal.
+Not affiliated with any government department.</p>
+</footer>
+
+<script>
+function searchSite(){
+const q=document.getElementById("searchInput")
+.value.trim().toLowerCase();
+
+if(!q){
+alert("Please enter something to search.");
+return;
+}
+
+const cards=[...document.querySelectorAll(".card")];
+
+cards.forEach(card=>{
+card.style.display=card.innerText.toLowerCase()
+.includes(q)?"block":"none";
+});
+
+document.getElementById("updates")
+.scrollIntoView({behavior:"smooth"});
+}
+
+document.getElementById("searchInput")
+.addEventListener("keydown",function(e){
+if(e.key==="Enter")searchSite();
+});
+</script>
+
+</body>
+</html>
